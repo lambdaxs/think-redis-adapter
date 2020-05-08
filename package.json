@@ -1,6 +1,6 @@
 {
   "name": "think-redis-adapter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "think-redis-adapter for ThinkJS",
   "main": "index.js",
   "scripts": {

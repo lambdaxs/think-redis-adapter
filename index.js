@@ -68,6 +68,10 @@ class RedisCache {
   Instance() {
     return this.redis.instance();
   }
+
+  close() {
+    this.redis.close()
+  }
 }
 
 module.exports = RedisCache;
