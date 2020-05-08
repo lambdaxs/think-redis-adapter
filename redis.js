@@ -161,6 +161,10 @@ class thinkRedis {
             this.redis.disconnect();
         }
     }
+
+    instance() {
+        return this.redis;
+    }
 }
 
 module.exports = thinkRedis;

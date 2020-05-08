@@ -65,8 +65,8 @@ class RedisCache {
     return this.redis.delete(key);
   }
 
-  redisInst() {
-    return this.redis;
+  Instance() {
+    return this.redis.instance();
   }
 }
 
