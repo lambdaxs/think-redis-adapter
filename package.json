@@ -1,7 +1,7 @@
 {
-  "name": "think-redis",
-  "version": "1.1.2",
-  "description": "think-redis for ThinkJS",
+  "name": "think-redis-adapter",
+  "version": "1.0.1",
+  "description": "think-redis-adapter for ThinkJS",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --fix index.js",
@@ -15,26 +15,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thinkjs/think-redis.git"
+    "url": "git+https://github.com/lambdaxs/think-redis-adapter.git"
   },
   "keywords": [
-    "think-redis"
+    "think-redis-adapter"
   ],
-  "author": {
-    "name": "lushijie",
-    "email": "lushijie1218@126.com"
-  },
-  "contributors": [
-    {
-      "name": "lushijie",
-      "email": "lushijie1218@126.com"
-    }
-  ],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thinkjs/think-redis/issues"
-  },
-  "homepage": "https://github.com/thinkjs/think-redis#readme",
   "devDependencies": {
     "ava": "~0.18.1",
     "babel-eslint": "~7.1.1",
